@@ -75,7 +75,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     .state('tab.login', {
       url: '/login',
       views: {
-        'tab-login': {
+        'login': {
           templateUrl: 'templates/login.html',
           controller: 'LoginCtrl'
         }
