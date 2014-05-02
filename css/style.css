@@ -21,3 +21,7 @@ button {
 i {
   color: #666666;
 }
+
+.footer-play-nice .pane, .footer-play-nice .view{
+    background-color:transparent;
+}
