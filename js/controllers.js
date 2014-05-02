@@ -17,5 +17,8 @@ angular.module('starter.controllers', [])
 .controller('HomeCtrl', function($scope) {
 })
 
+.controller('ContactCtrl', function($scope) {
+})
+
 .controller('LoginCtrl', function($scope) {
 });
