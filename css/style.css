@@ -1,4 +1,9 @@
 /* Empty. Add your own CSS if you like */
+
+h1, h2, h3, body {font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
 .scroll-content#imagebg {
   background: url('../img/blurry_rainy_image.jpg');
   background-repeat: no-repeat;
