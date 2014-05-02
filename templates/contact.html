@@ -5,36 +5,46 @@
 </ion-nav-bar>
 
 <ion-view title="Treatment Tracker">
-  <div class="list list-inset">
-    Send Dr. Johnson a secure message:<br><br>
-  <label class="item item-input">
-    <input type="text" placeholder="Subject">
-  </label>
-  <label class="item item-input">
-    <input type="text" placeholder="Message">
-  </label>
-    <button class="button button-block button-energized" onclick=location.href="#/tab/account">
-      Submit
-    </button>
+  <div class="padding">
+    <p>
+      Info from the dr!
+     </p>
+    <div class="list list-inset">
+      <label class="item item-input">
+        <input type="text" placeholder="Subject">
+      </label>
+      <label class="item item-input">
+        <textarea placeholder="Message"></textarea>
+      </label>
+    </div>
+    <div class="card">
+      <label class="item" style="border: none">
+        <button class="button button-block button-energized" onclick=location.href="#/tab/account">
+          Submit
+        </button>
+      </label>
+    </div>
+  </div>
+
+    <p>
+      Test info
+    </p>
   </div>
 
 <ion-tabs class="tabs-icon-top">
 
   <!-- Home Tab -->
   <ion-tab icon="icon ion-home" href="#/tab/home" title="Home">
-    <ion-nav-view name="tab-home"></ion-nav-view>
   </ion-tab>
 
 
   <!-- Feedback Tab -->
   <ion-tab title="Send Feedback" icon="ion-chatbox-working">
-    <ion-nav-view name="tab-friends"></ion-nav-view>
   </ion-tab>
 
 
   <!-- Account Tab -->
   <ion-tab title="Account" icon="icon ion-gear-b" href="#/tab/account">
-    <ion-nav-view name="tab-account"></ion-nav-view>
   </ion-tab>
 
 </ion-tabs>
