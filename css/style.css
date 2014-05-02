@@ -1,4 +1,5 @@
 /* Empty. Add your own CSS if you like */
 .scroll-content#imagebg {
-  background: url('../img/blurry_rainy_image.jpg') no-repeat center;
+  background: url('../img/blurry_rainy_image.jpg');
+  background-repeat: no-repeat;
   background-size: cover;}
