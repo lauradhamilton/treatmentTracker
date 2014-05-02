@@ -72,7 +72,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-    .state('tab.login', {
+    .state('login', {
       url: '/login',
       views: {
         'login': {
