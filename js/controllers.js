@@ -23,5 +23,8 @@ angular.module('starter.controllers', [])
 .controller('ContactSuccessCtrl', function($scope) {
 })
 
+.controller('CalendarCtrl', function($scope) {
+})
+
 .controller('LoginCtrl', function($scope) {
 });

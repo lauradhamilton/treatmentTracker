@@ -79,6 +79,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: '/contact-success',
       templateUrl: 'templates/contact-success.html',
       controller: 'ContactSuccessCtrl'
+    })
+
+    .state('calendar', {
+      url: '/calendar',
+      templateUrl: 'templates/calendar.html',
+      controller: 'CalendarCtrl'
     });
 
   // if none of the above states are matched, use this as the fallback
