@@ -11,4 +11,26 @@
       Submit
     </button>
   </div>
+
+<ion-tabs class="tabs-icon-top">
+
+  <!-- Home Tab -->
+  <ion-tab icon="icon ion-home" href="#/tab/home" title="Home">
+    <ion-nav-view name="tab-home"></ion-nav-view>
+  </ion-tab>
+
+
+  <!-- Feedback Tab -->
+  <ion-tab title="Send Feedback" icon="ion-chatbox-working">
+    <ion-nav-view name="tab-friends"></ion-nav-view>
+  </ion-tab>
+
+
+  <!-- Account Tab -->
+  <ion-tab title="Account" icon="icon ion-gear-b" href="#/tab/account">
+    <ion-nav-view name="tab-account"></ion-nav-view>
+  </ion-tab>
+
+</ion-tabs>
+
 </ion-view>
