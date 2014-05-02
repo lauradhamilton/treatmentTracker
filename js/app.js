@@ -73,6 +73,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: '/contact',
       templateUrl: 'templates/contact.html',
       controller: 'ContactCtrl'
+    })
+
+    .state('contact-success', {
+      url: '/contact-success',
+      templateUrl: 'templates/contact-success.html',
+      controller: 'ContactSuccessCtrl'
     });
 
   // if none of the above states are matched, use this as the fallback
