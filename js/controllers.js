@@ -26,5 +26,8 @@ angular.module('starter.controllers', [])
 .controller('CalendarCtrl', function($scope) {
 })
 
+.controller('RemindersCtrl', function($scope) {
+})
+
 .controller('LoginCtrl', function($scope) {
 });
